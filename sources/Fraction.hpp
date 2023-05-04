@@ -17,7 +17,7 @@ namespace ariel{
             //Fraction();
 
             // "outline" constructor
-            Fraction(int, int);
+            Fraction(int deno, int nume);
 
             // get functions
             int getNumerator();
