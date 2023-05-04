@@ -9,8 +9,6 @@
 using namespace std;
 using namespace ariel;
 
-using namespace ariel;
-
 TEST_CASE("CHECK CONSTRUCTOR WORK "){
     CHECK_THROWS(Fraction(3,0)); 
     CHECK_THROWS(Fraction(7,0)); 
