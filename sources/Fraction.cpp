@@ -8,10 +8,10 @@ namespace ariel{
     //// "outline" constructor implementation:
     Fraction::Fraction(int deno, int nume){
         
-    if (denominator == 0 && numerator != 0){
+    if (deno == 0 && nume != 0){
         throw std::invalid_argument("denominator can not be 0");
     }
-    if (numerator > INT_MAX || denominator > INT_MAX){
+    if (deno > INT_MAX || nume > INT_MAX){
         throw std::overflow_error("The Number is too big,need to be int");
     }
         this->denominator = 1;
